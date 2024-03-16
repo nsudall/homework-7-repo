@@ -23,12 +23,14 @@ switch ($url) {
 
     //if it is "/" return the homepage view from the main controller
     case "/":
-        
+        $mainController = new mainController();
+        $mainController->homepage();
         break;
 
    //if it is something else return a 404 view from the main controller
     default:
-        
+        $mainController = new mainController();
+        $mainController->notFound();
         break;
 }
 ?>
