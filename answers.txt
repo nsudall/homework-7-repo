@@ -1,0 +1,15 @@
+1. see MAMP.png
+
+2. PHP and Javascript are similar in that they are interpreted languages and do not require a compiler
+Both also have dynamic typing which means their variable types can change during runtime. They have some 
+similar sytax structures like arithmitic operators, however string opperator differ in each language. 
+They are different as Javascript adds dynamic capabilities to the website so that the user can interact with the page.
+PHP on the other hand operates in the back-end and processes server requests
+
+3. MVC stands for model, view, and controller. MVC seperates an application into these three components
+Each section has different focuses. controller acts as a bridge between view and model, independatly of
+data logic. Controller handles buissness logic and incoming requests according to the model componet in order
+to then interact with View inorder to create a final output. View componet is what is displayed for the user.
+the controller takes data from the model componet to give to the view componet as view only interacts
+with the controller. The model componet handles the data-related logic. The controller cannot access 
+databases directly, so it requests through the model componet, which then accesses, or posts to the database. 
